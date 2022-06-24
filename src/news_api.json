@@ -1,0 +1,267 @@
+{
+    "news-api-key": "443ecc6665604e4ebe1280554cf377cc",
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+      {
+        "source": {
+          "id": "the-wall-street-journal",
+          "name": "The Wall Street Journal"
+        },
+        "author": "Gwynn Guilford",
+        "title": "U.S. Inflation Hit 8.6% in May - The Wall Street Journal",
+        "description": "Consumer prices rose at the fastest rate in four decades in May, the Labor Department said Friday.",
+        "url": "https://www.wsj.com/articles/us-inflation-consumer-price-index-may-2022-11654810079",
+        "urlToImage": "https://images.wsj.net/im-561078/social",
+        "publishedAt": "2022-06-10T12:34:00Z",
+        "content": "U.S. consumer inflation reached an 8.6% annual rate in May, its highest level in more than four decades as surging energy and food prices pushed prices higher.\r\nThe Labor Department on Friday said th… [+297 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Kevin Breuninger",
+        "title": "Jan. 6 hearing highlights 'carnage' of Capitol riot in new video footage, Trump officials concede he lost election - CNBC",
+        "description": "The House committee probing the Jan. 6, 2021, attack on the U.S. Capitol by a pro-Trump mob is set to reveal new information in its first public hearing.",
+        "url": "https://www.cnbc.com/2022/06/09/trump-capitol-riot-hearing-jan-6-investigators-release-new-findings.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/106825621-1610754561730-zzz.jpg?v=1634590461&w=1920&h=1080",
+        "publishedAt": "2022-06-10T11:40:00Z",
+        "content": "Unlike Trump's two impeachment trials, when prosecutors' allegations against the then-president were countered in real time by his defense team, the select committee's hearings will be uninterrupted … [+1977 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Emily McCormick",
+        "title": "Stock market news live updates: Stock futures mixed before key inflation data - Yahoo Finance",
+        "description": "U.S. stock futures struggled for direction Friday morning as investors awaited an update on inflation, which is expected to hover near 40-year highs amid...",
+        "url": "https://finance.yahoo.com/news/stock-market-news-live-updates-june-10-2022-111928913.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/jyHAOXuPhhmkmvPhnELzZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-06/44a2b140-e8aa-11ec-bf77-6ba0537526ad",
+        "publishedAt": "2022-06-10T11:19:28Z",
+        "content": "U.S. stock futures struggled for direction Friday morning as investors digested an update on inflation, which showed price increases unexpectedly rose by the most since 1981 amid elevated prices for … [+3947 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Fox17"
+        },
+        "author": "Doug Reardon, Karie Herringa",
+        "title": "GRPD Officer Schurr to be arraigned Friday with second-degree murder in shooting death of Patrick Lyoya - FOX 17 West Michigan News",
+        "description": "The Grand Rapids police officer who shot and killed Patrick Lyoya following a traffic stop and struggle on April 4 will be charged with one count of second-degree murder the Kent County prosecutor announced Thursday afternoon.",
+        "url": "https://www.fox17online.com/news/patrick-lyoyas-death/grpd-officer-christopher-schurr-charged-with-second-degree-murder-in-shooting-death-of-patrick-lyoya",
+        "urlToImage": "https://ewscripps.brightspotcdn.com/dims4/default/c99bd99/2147483647/strip/true/crop/1407x739+0+26/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fed%2Ff5%2Fb4cdff4a49d085262951abf8bc7f%2Fchristopher-schurr-mug.JPG",
+        "publishedAt": "2022-06-10T10:19:16Z",
+        "content": "GRAND RAPIDS, Mich. The Grand Rapids police officer who shot and killed Patrick Lyoya following a traffic stop and struggle on April 4 has a court appearance Friday to be arraigned on one count of se… [+25001 chars]"
+      },
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": "Elliot Spagat",
+        "title": "Biden, leaders reach migration pact despite attendance flap - The Associated Press",
+        "description": "LOS ANGELES (AP) — President Joe Biden and other Western Hemisphere leaders are set to announce on Friday what is being billed as a roadmap for countries to host large numbers of migrants and refugees.",
+        "url": "https://apnews.com/81cd2b6c371a94740a1be238d72bc547",
+        "urlToImage": "https://storage.googleapis.com/afs-prod/media/23e40b5e20c64b7f9098cec9aaaadd7d/3000.jpeg",
+        "publishedAt": "2022-06-10T09:51:23Z",
+        "content": "LOS ANGELES (AP) President Joe Biden and other Western Hemisphere leaders are set to announce on Friday what is being billed as a roadmap for countries to host large numbers of migrants and refugees.… [+3193 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Post"
+        },
+        "author": "Nika Shakhnazarova",
+        "title": "Search for missing British journalist Dom Phillips, Bruno Pereira intensifies - New York Post ",
+        "description": "Traces of blood were found on a local fisherman’s boat as police now examine if the blood is linked to the two missing men.",
+        "url": "https://nypost.com/2022/06/10/search-for-missing-british-journalists-dom-phillips-bruno-pereira-intensifies/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/06/GettyImages-1241146098.jpg?quality=75&strip=all&w=1024",
+        "publishedAt": "2022-06-10T09:51:00Z",
+        "content": "Brazil officials are investigating traces of blood found in the ongoing search for British journalist and an indigenous expert as Hollywood celebrities, sports stars, and lawmakers issue urgent calls… [+6465 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cbslocal.com"
+        },
+        "author": "CBS Baltimore Staff",
+        "title": "3 Dead, 1 Critical & Trooper Hurt After Mass Shooting At Maryland Manufacturing Plant - CBS Baltimore",
+        "description": "Three employees were killed, one employee is in critical condition and a Maryland trooper was injured after a mass shooting Thursday at the Columbia Machine manufacturing plant in Smithsburg, police said. The suspect is in custody.",
+        "url": "https://baltimore.cbslocal.com/2022/06/10/smithsburg-maryland-mass-shooting-columbia-machine-plant/",
+        "urlToImage": "https://baltimore.cbslocal.com/wp-content/uploads/sites/15910056/2022/06/9171977298F2A30261E6670924904420.jpg?w=1280",
+        "publishedAt": "2022-06-10T09:30:00Z",
+        "content": "BALTIMORE (WJZ) A mass shooting Thursday at a Maryland manufacturing plant left three employees dead and another in critical condition before the suspect was injured in a shootout with state troopers… [+3310 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Toyin Owoseje, CNN",
+        "title": "Rebel Wilson says she's dating a woman after finding her 'Disney Princess' - CNN",
+        "description": "Rebel Wilson has revealed that she is a member of the LGBTQ community during Pride Month by introducing the world to her \"Disney Princess.\"",
+        "url": "https://www.cnn.com/2022/06/10/entertainment/rebel-wilson-dating-ramona-agruma-intl-scli/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220610035816-01-rebel-wilson-file-super-tease.jpg",
+        "publishedAt": "2022-06-10T09:25:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "reuters",
+          "name": "Reuters"
+        },
+        "author": null,
+        "title": "Goodbye Golden Arches: rebranded McDonald's to reopen in Russia - Reuters.com",
+        "description": "Sunday marks a new dawn for Russia's fast-food lovers as former McDonald's Corp <a href=\"https://www.reuters.com/companies/MCD.N\" target=\"_blank\">(MCD.N)</a> restaurants reopen under new branding and ownership, more than three decades after the arrival of the…",
+        "url": "https://www.reuters.com/markets/europe/goodbye-golden-arches-rebranded-mcdonalds-reopen-russia-2022-06-10/",
+        "urlToImage": "https://www.reuters.com/resizer/qFSoZYBJdKk7yxDv0zashD8cURk=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/EAYA3FAEB5PKXIJCJ3MESUWJJE.jpg",
+        "publishedAt": "2022-06-10T09:18:00Z",
+        "content": "June 10 (Reuters) - Sunday marks a new dawn for Russia's fast-food lovers as former McDonald's Corp (MCD.N) restaurants reopen under new branding and ownership, more than three decades after the arri… [+3661 chars]"
+      },
+      {
+        "source": {
+          "id": "politico",
+          "name": "Politico"
+        },
+        "author": null,
+        "title": "Jan. 6 panel lets Trump allies narrate the case against him - POLITICO",
+        "description": "At the select committee's first hearing, members mostly took a back seat while airing the testimony from members of Donald Trump's inner circle.",
+        "url": "https://www.politico.com/news/2022/06/10/jan-6-hearing-testimony-trump-00038764",
+        "urlToImage": "https://static.politico.com/a8/a8/4590ebc34a74847896f3f9c0e15c/220610-jan-6-committee-ap-773.jpg",
+        "publishedAt": "2022-06-10T08:30:00Z",
+        "content": "The panel has for 10 months quietly amassed an enormous trove of video depositions, compiled from its more than 1,000 witness interviews. Now, as Republicans accuse the panel of a partisan witch hunt… [+5616 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "TMZ"
+        },
+        "author": "TMZ Staff",
+        "title": "Johnny Depp Dior Cologne Gets Prime Time Promo After Heard Trial - TMZ",
+        "description": "If there was any question as to whether or not brands would work with Johnny Depp again following his trial ... look no further than a resurrected Dior campaign that aired during prime time this week.",
+        "url": "https://www.tmz.com/2022/06/10/johnny-depp-dior-men-fragrance-amber-heard-trial-prime-time/",
+        "urlToImage": "https://imagez.tmz.com/image/c4/16by9/2022/06/09/c4998d7953b84a8fb533a1a9474204ed_xl.jpg",
+        "publishedAt": "2022-06-10T08:00:00Z",
+        "content": "If there's any question as to whether or not brands will work with Johnny Depp again following his trial ... look no further than a resurrected Dior campaign airing in prime time this week.\r\nDepp's f… [+1355 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Guardian"
+        },
+        "author": "Samantha Lock, Martin Belam",
+        "title": "Russia-Ukraine war: what we know on day 107 of the invasion - The Guardian",
+        "description": "Vladimir Putin compares his actions in Ukraine to conquests of Peter the Great; Zelenskiy says Ukraine ‘holding on’ to key frontline cities in Donbas",
+        "url": "https://amp.theguardian.com/world/2022/jun/10/russia-ukraine-war-what-we-know-on-day-107-of-the-invasion",
+        "urlToImage": "https://i.guim.co.uk/img/media/59377459184f39b7280bbb0534400fcbe52568b9/0_134_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bc7deef72c7c2d5f5ee5bd18e55e3bf7",
+        "publishedAt": "2022-06-10T07:55:00Z",
+        "content": "Ukrainian troops claim they have advanced in fierce street fighting in Sievierodonetsk but say their only hope of turning the tide is with more artillery to offset Russias massive firepower. Ukraines… [+283 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "FOX 11 Los Angeles"
+        },
+        "author": "FOX 11",
+        "title": "US Navy helicopter crashes near U.S.-Mexico border - FOX 11 Los Angeles",
+        "description": "A U.S. Navy helicopter crashed at a training range in Imperial County Thursday.",
+        "url": "https://www.foxla.com/news/crews-responding-to-possible-crash-involving-military-plane-near-yuma-arizona",
+        "urlToImage": "https://images.foxtv.com/static.foxla.com/www.foxla.com/content/uploads/2022/06/1280/720/snapshot-2022-06-09T223038.323.jpg?ve=1&tl=1",
+        "publishedAt": "2022-06-10T06:14:42Z",
+        "content": "IMPERIAL COUNTY, Calif. - A U.S. Navy helicopter crashed at a training range in Imperial County Thursday.\r\nAccording to the Naval Air Facility El Centro, the crash took place in the Navy's training r… [+474 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Daily Beast"
+        },
+        "author": "AJ McDougall",
+        "title": "Uvalde School Police Chief Intentionally Ditched Radio During Shooting - The Daily Beast",
+        "description": "Pete Arredondo also told the Texas Tribune that the police response to the school was delayed by a set of roughly 20 to 30 keys.",
+        "url": "https://www.thedailybeast.com/uvalde-school-district-police-chief-pete-arrendondo-intentionally-ditched-radio-during-shooting-he-says",
+        "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_2829,w_5029,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1654838992/GettyImages-1399615999_scsznz",
+        "publishedAt": "2022-06-10T06:01:51Z",
+        "content": "In his first interview since the Robb Elementary School shooting, the man widely seen as responsible for the delayed police response told the Texas Tribune that it had been a deliberate decision to a… [+989 chars]"
+      },
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Zahra Tayeb",
+        "title": "Stanley Druckenmiller warns of bear market, recession by 2023 - Markets Insider",
+        "description": "Stanley Druckenmiller said he's taking a break from trading as he thinks we'll be in bear market for a while and recession is coming.",
+        "url": "https://markets.businessinsider.com/news/stocks/stanley-druckenmiller-warns-bear-market-recession-inflation-2022-6",
+        "urlToImage": "https://i.insider.com/62a2faf34e21bf00185c3f88?width=1200&format=jpeg",
+        "publishedAt": "2022-06-10T05:57:33Z",
+        "content": "Billionaire Stanley Druckenmiller is downbeat on the markets right now and says the current \r\nbear market has some way to run.\r\nAt a 2022 Sohn Investment Conference the investor and chief of Duquesne… [+1641 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Dana Bash, Jake Tapper, Jeremy Herb",
+        "title": "January 6 Vice Chair Cheney said Trump had a 'seven-part plan' to overturn the election. Here's what she meant - CNN",
+        "description": "Former President Donald Trump had a \"sophisticated seven-point plan\" to overturn the 2020 presidential election over the course of several months, January 6 committee Vice Chair Liz Cheney said, detailing how the panel plans to use its future hearings to tack…",
+        "url": "https://www.cnn.com/2022/06/09/politics/jan-6-hearing-cheney-trump-overturn-election-plan/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220609205120-24-january-6-hearing-0609-gallery.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2022-06-10T05:06:00Z",
+        "content": "Former President Donald Trump had a sophisticated seven-point plan to overturn the 2020 presidential election over the course of several months, January 6 committee Vice Chair Liz Cheney said, detail… [+2499 chars]"
+      },
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": "Farnoush Amiri",
+        "title": "Capitol officer recounts Jan. 6 'war scene' in her testimony - The Associated Press",
+        "description": "WASHINGTON (AP) — Capitol Police Officer Caroline Edwards described to lawmakers Thursday night what she could only describe as the “war scene” that she and other officers faced when rioters began viciously attacking them on Jan.",
+        "url": "https://apnews.com/d690e70ac850d8652b82c0c3e2fba5bf",
+        "urlToImage": "https://storage.googleapis.com/afs-prod/media/d1ce0be6f0574a0aae7c3dc72b945327/3000.jpeg",
+        "publishedAt": "2022-06-10T05:00:24Z",
+        "content": "WASHINGTON (AP) Capitol Police Officer Caroline Edwards described to lawmakers Thursday night what she could only describe as the war scene that she and other officers faced when rioters began viciou… [+3790 chars]"
+      },
+      {
+        "source": {
+          "id": "independent",
+          "name": "Independent"
+        },
+        "author": "Jacob Stolworthy",
+        "title": "Hustle: Adam Sandler has achieved impressive Rotten Tomatoes record with new Netflix movie - The Independent",
+        "description": "It's making more of a wave than any other film in his career",
+        "url": "https://www.independent.co.uk/arts-entertainment/films/news/hustle-adam-sandler-netflix-rotten-tomatoes-b2098007.html",
+        "urlToImage": "https://static.independent.co.uk/2022/06/09/13/newFile-3.jpg?quality=75&width=1200&auto=webp",
+        "publishedAt": "2022-06-10T04:52:54Z",
+        "content": "Adam Sandler has achieved a career record with his brand new Netflix movie.\r\nThe actor, who has a $350m (£199m) deal with the streaming service, appears in Hustle, a sports drama in which he plays a … [+1203 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NME"
+        },
+        "author": null,
+        "title": "BTS' new single 'Yet To Come' offers poignant reflection and an optimistic invitation into the future - NME",
+        "description": "BTS, the biggest boyband in the world, wrap up their first nine years together with a stunning tribute to their story so far.",
+        "url": "https://www.nme.com/reviews/track/bts-yet-to-come-the-most-beautiful-moment-review-proof-3244294",
+        "urlToImage": "https://www.nme.com/wp-content/uploads/2022/06/BTS-door-proof-concept.jpeg",
+        "publishedAt": "2022-06-10T04:16:24Z",
+        "content": "Back in 2015, BTS embarked on an era they dubbed The Most Beautiful Moment In Life. That title referred to that period of young adulthood where everything feels possible and full of potential, but cr… [+3933 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Daily Beast"
+        },
+        "author": "Zachary Petrizzo",
+        "title": "Jan. 6 Organizer Has Meltdown as Jan. 6 Committee Lays Out Its Case - The Daily Beast",
+        "description": "As the committee calmly presented its case, Ali Alexander was losing his mind on Trump’s Truth Social platform.",
+        "url": "https://www.thedailybeast.com/jan-6-organizer-ali-alexander-has-meltdown-as-jan-6-committee-lays-out-its-case-in-primetime-hearing",
+        "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_766,w_1362,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1654831324/211209-ali-alexander-hero_cneewy_axxstq",
+        "publishedAt": "2022-06-10T03:54:46Z",
+        "content": "As the Jan. 6 committee tasked with investigating the Capitol riot presented its case to the American people on Thursday evening, Jan. 6 organizer and Stop the Steal leader Ali Alexander had a meltdo… [+616 chars]"
+      }
+    ]
+  }
