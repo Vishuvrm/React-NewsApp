@@ -1,17 +1,25 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import eventbus from "./eventBus";
 
 export class NavBar extends Component {
-  static propTypes = {};
+  getQuery(event){
+      event.preventDefault()
+      let value = event.target[0].value
+      eventbus.dispatch("getQuery", {query: value})
+      console.log("Query dispached!")
+  }
 
   render() {
+    
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="">
               NewsMania
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -28,18 +36,66 @@ export class NavBar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to={"/"}>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/about">
+                  <Link
+                    className="nav-link active"
+                    aria-current="page"
+                    to="/about"
+                  >
                     About
-                  </a>
+                  </Link>
                 </li>
+                <div
+                  className="vertical-line primary"
+                  style={{
+                          width: "4px",
+                          backgroundColor: "black",
+                          border: "1px inset",
+                          height: "45px"
+}}
+                ></div>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/business">
+                    Business
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/entertainment">
+                    Entertainment
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/health">
+                    Health
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/sports">
+                    Sports
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/science">
+                    Science
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/technology">
+                    Technology
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/general">
+                    General
+                  </Link>
+                </li>{" "}
               </ul>
-              <form className="d-flex" role="search">
+              <form className="d-flex" role="search" onSubmit={this.getQuery}>
                 <input
                   className="form-control me-2"
                   type="search"
