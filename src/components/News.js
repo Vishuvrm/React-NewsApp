@@ -21,7 +21,7 @@ export default class news extends Component {
   static propTypes = {
     country: PropTypes.string,
     category: PropTypes.string,
-    search: PropTypes.string
+    search: PropTypes.string,
   };
 
 
@@ -52,38 +52,70 @@ export default class news extends Component {
     });
   }
 
+  async componentDidUpdate(){
+    if (this.state.search !== ""){
+      console.log("cdu:", this.state);
+      console.log("performing search")
+      
+    }
+  }
 
   async componentDidMount() {
+    this.props.progress(0)
     let code_response = await fetch('https://ipapi.co/json/');
-    let code_data = await code_response.json()
+    this.props.progress(20);
+    let code_data = await code_response.json();
+    this.props.progress(40);
     let country_code = code_data.country.toLowerCase();
     let page_size = 6;
     
     let search = "";
-    eventbus.on("getQuery", (data)=>{
+    eventbus.on("getQuery", async (data)=>{
+      console.log("Event bus dispached!", )
       this.setState({search: data.query, articles: []});
       search = data.query;
       console.log("Query added to event listener! =>", search);
-      this.componentDidMount();
+      console.log(this.state);
+      eventbus.remove("getQuery");
+      // this.componentDidMount();
+      this.url = `https://newsapi.org/v2/everything?q=${data.query}&sortBy=${"relevancy"}&apiKey=${this.api[1]}` + `&pageSize=${page_size}`
+      let url = this.url + `&page=${1}`;
+
+      this.setState({ loading: true });
+      let query_data = await fetch(url);
+      this.props.progress(80);
+      let parsed_data = await query_data.json();
+      this.props.progress(90);
+      let status = parsed_data.status
+      
+      this.setState({ articles: parsed_data.articles, loading: false});
+      this.props.progress(100);
     })
 
-    console.log("Query =>", this.state.search);
-
+    
     if (this.state.search === ""){
-    this.url = `https://newsapi.org/v2/top-headlines?country=${this.props.country !== ""?this.props.country:country_code !== ""?country_code:"us"}&category=${this.props.category}&apiKey=${this.api[0]}` + `&pageSize=${page_size}`;
+      this.url = `https://newsapi.org/v2/top-headlines?country=${this.props.country !== ""?this.props.country:country_code !== ""?country_code:"us"}&category=${this.props.category}&apiKey=${this.api[1]}` + `&pageSize=${page_size}`;
     }
     else{
-      this.url = `https://newsapi.org/v2/everything?q=${this.state.search}&sortBy=${"relevancy"}&apiKey=${this.api[0]}` + `&pageSize=${page_size}`
+      this.url = `https://newsapi.org/v2/everything?q=${this.state.search}&sortBy=${"relevancy"}&apiKey=${this.api[1]}` + `&pageSize=${page_size}`
     }
     let url = this.url + `&page=${1}`;
-    console.log("URL =", url);
 
     this.setState({ loading: true });
     let data = await fetch(url);
+    this.props.progress(80);
     let parsed_data = await data.json();
+    this.props.progress(90);
     let status = parsed_data.status
     
     this.setState({ articles: parsed_data.articles, loading: false});
+    this.props.progress(100);
+    console.log("Componentdidmount")
+  }
+
+  componentWillUnmount(){
+    eventbus.remove("getQuery");
+    console.log("Component unmounted!")
   }
 
   render() {
